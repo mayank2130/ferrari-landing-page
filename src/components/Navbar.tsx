@@ -47,7 +47,7 @@ const Navbar = () => {
 
   return (
     <motion.nav 
-      className="bg-white shadow-lg rounded-3xl mt-4 max-w-4xl mx-auto px-4 bg-gradient-to-t sticky top-4 from-black z-50 to-red-500 flex leading-none  drop-shadow-[4px_4px_10px_rgba(0,0,0,0.75)]"
+      className="bg-[#2A3439] shadow-lg rounded-3xl mt-4 max-w-4xl mx-auto px-4 bg-gradient-to-t sticky top-4 z-50 flex leading-none  drop-shadow-[4px_4px_10px_rgba(0,0,0,0.75)]"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
